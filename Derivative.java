@@ -1,13 +1,13 @@
 public class Derivative {
 	
-	Function fonksiyon;
+	Function func;
 	
 	public Derivative() {
 		
 	}
 	
 	public Derivative(Function f) {
-		fonksiyon = f;
+		func = f;
 	}
 	
 	

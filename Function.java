@@ -115,9 +115,6 @@ public class Function {
 	}
 	
 	
-/*###### YAZILAN EK METOTLAR ######*/
-	
-/*	Polinomun derecesini doner.	  */
 	public int largestPower(String s) {
 		int index = s.indexOf("^");
 		String temp;
@@ -140,15 +137,11 @@ public class Function {
 	}
 	
 	
-	
-/*	Karakter '+'/'-' ise true doner.  */
 	public static boolean isSign(char c) {
 		return c == '+' || c == '-';
 	}
 	
 	
-	
-/*	Polinomdaki son '+'/'-' karaterinin indexini doner.  */
 	private int lastSign(String s) {
 		for(int i = s.length() - 1; i >= 0; i--) {
 			if(isSign(s.charAt(i))) {
@@ -158,7 +151,6 @@ public class Function {
 		return -1;
 	}
 	
-/*	Polinomdaki ilk '+'/'-' karaterinin indexini doner.  */
 	private int firstSign(String s) {
 		for(int i = 0; i <= s.length() - 1; i++) {
 			if(isSign(s.charAt(i))) {
